@@ -1,0 +1,78 @@
+.shellContainer{
+
+    display:flex;
+    margin: auto;
+    flex-direction: column;
+    margin-top:200px;
+    border-style:solid;
+    
+    
+    border-radius: 5px;
+    width:300px;
+    height:450px;
+    flex:1;
+    
+}
+#input>div{
+    padding:5px;
+}
+#input>:nth-child(1){
+    font-size: smaller;
+}
+#input>:nth-child(2){
+    font-size:larger
+}
+.row>:nth-child(4){
+    background-color:lightskyblue;
+    color:white;
+}
+
+#input{
+    flex-direction:column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-content: space-between;
+    
+    width:100%;
+    
+}
+.innerBody{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.row> #input{
+    display:flex;
+    justify-content:flex-end;
+    color:blue;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    background-color:gray;
+    flex:1;
+}
+button{
+    flex:1;
+    transition: 0.3s;
+
+}
+
+button:hover{
+    background-color:green;
+    color:blue;
+      
+}
+
+#last:hover{
+    background-color:green;
+    color:blue;
+}
+#lastest{
+    background-color: orange;
+}
+#lastest:hover{
+    background-color:green;
+    color:blue;
+}
